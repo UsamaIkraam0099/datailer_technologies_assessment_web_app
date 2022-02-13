@@ -1,0 +1,42 @@
+.main-container {
+  width: 100%;
+  padding: 20px 0;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-main {
+  margin: 0;
+  width: 100px;
+  height: 30px;
+  display: flex;
+  border: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-login {
+  color: black;
+  background-color: #fff;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.btn-signUp {
+  color: black;
+  background-color: #fff;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.btn-login:focus {
+  color: #fff;
+  background-color: #ff7468;
+}
+
+.btn-signUp:focus {
+  color: #fff;
+  background-color: #ff7468;
+}

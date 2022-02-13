@@ -1,0 +1,39 @@
+.list-con {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.combine-container {
+  display: flex;
+  width: 800px;
+  justify-content: flex-end;
+  padding: 15px 0;
+}
+
+.loat-btn {
+  border: none;
+  padding: 3px 15px;
+  color: #fff;
+  border-radius: 100px;
+  margin: 0 5px;
+  background-color: gray;
+}
+
+.logOut-btn {
+  border: none;
+  padding: 3px 15px;
+  color: #fff;
+  background-color: red;
+  border-radius: 100px;
+  margin: 0 5px;
+}
+
+.add-btn {
+  border: none;
+  padding: 3px 15px;
+  color: #fff;
+  background-color: #005a6d;
+  border-radius: 100px;
+}
