@@ -8,7 +8,7 @@ const index = ({ name, form, onChange, minLength }) => {
         minLength={minLength}
         type="text"
         className="input"
-        placeholder="Type phone number here..."
+        placeholder={form[name].placeholder}
         onChange={(input) => onChange(name, input.target.value)}
       />
     </div>

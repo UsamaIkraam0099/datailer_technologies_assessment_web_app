@@ -22,6 +22,7 @@
   background-color: #fff;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
+  box-shadow: 2px 2px 12px 2px #ced4da;
 }
 
 .btn-signUp {
@@ -29,14 +30,15 @@
   background-color: #fff;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
+  box-shadow: 2px 2px 12px 2px #ced4da;
 }
 
-.btn-login:focus {
+.btn-signUp:focus {
   color: #fff;
   background-color: #ff7468;
 }
 
-.btn-signUp:focus {
+.btn-login:focus {
   color: #fff;
   background-color: #ff7468;
 }

@@ -17,7 +17,7 @@ const Index = () => {
       valid: false,
       error: false,
       type: "input",
-      placeholder: "Type phone number...",
+      placeholder: "Type 12 digit phone number...",
       rules: {
         minLength: 12,
       },

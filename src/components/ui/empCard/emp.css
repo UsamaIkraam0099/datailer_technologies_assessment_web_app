@@ -8,7 +8,7 @@
   justify-content: flex-start;
   border-radius: 10px;
   padding-left: 10px;
-  border: 1px solid gray;
+  box-shadow: 0.2px 0.2px 8px 1px #adb5bd;
 }
 
 .item {

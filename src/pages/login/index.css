@@ -3,16 +3,19 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: black;
+  background-color: #f1f3f5;
   padding: 70px 0;
 }
 
 .card {
   width: 500px;
   height: 500px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 12px 2px #ced4da;
 }
 
 .wel-lbl {
+  margin-top: 20px;
   padding-left: 20px;
 }
 
@@ -23,9 +26,10 @@
 
 .btn-main-lg {
   width: 300px;
-  padding: 3px 0;
+  padding: 7px 0;
   border: none;
   color: #fff;
   border-radius: 10px;
-  background-color: tomato;
+  background-color: #ff7468;
+  box-shadow: 2px 2px 12px 2px #ced4da;
 }
